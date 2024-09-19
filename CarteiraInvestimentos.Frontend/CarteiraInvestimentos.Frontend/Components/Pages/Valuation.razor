@@ -1,0 +1,11 @@
+﻿@page "/valuation"
+@rendermode InteractiveServer
+
+<h3>Valuation</h3>
+
+<input type="number" @bind="lpa" placeholder="LPA" />
+
+<input type="number" @bind="vpa" placeholder="VPA" />
+
+<button @onclick="Calcular"  >Calcular</button>
+<span>Resultado: @resultado</span>
